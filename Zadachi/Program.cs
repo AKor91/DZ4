@@ -89,3 +89,59 @@
 // PrintArray();
 // FindElementsArray(0, array.GetLength(0) - 1);
 // PrintArray();
+
+// Задача 3: Задайте прямоугольный двумерный массив.
+// Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+
+// int[,] array = new int[3,3];
+
+// void CreateArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             array[i,j] = new Random().Next(1,10);
+//         }
+//     }
+// }
+
+// void PrintArray()
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             System.Console.Write(array[i,j] + " ");
+//         }
+// System.Console.WriteLine();
+//     }
+// System.Console.WriteLine();
+// }
+
+// void FindElementsArray()
+// {
+//     int minSum = int.MaxValue;
+//     int minSumRow = -1;
+
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//     int currentSum = 0;
+
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//            currentSum += array[i,j];
+//         }
+//         if(currentSum < minSum)
+//            {
+//                 minSum = currentSum;
+//                 minSumRow = i;
+//            }
+            
+// }
+// Console.WriteLine($"Строка с наименьшей суммой элементов: {minSumRow + 1}");
+// }
+
+// CreateArray();
+// PrintArray();
+// FindElementsArray();
