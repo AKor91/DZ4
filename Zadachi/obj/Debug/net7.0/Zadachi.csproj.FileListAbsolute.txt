@@ -1,0 +1,15 @@
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/bin/Debug/net7.0/Zadachi
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/bin/Debug/net7.0/Zadachi.deps.json
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/bin/Debug/net7.0/Zadachi.runtimeconfig.json
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/bin/Debug/net7.0/Zadachi.dll
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/bin/Debug/net7.0/Zadachi.pdb
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.csproj.AssemblyReference.cache
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.GeneratedMSBuildEditorConfig.editorconfig
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.AssemblyInfoInputs.cache
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.AssemblyInfo.cs
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.csproj.CoreCompileInputs.cache
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.dll
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/refint/Zadachi.dll
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.pdb
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/Zadachi.genruntimeconfig.cache
+/home/ak/Рабочий стол/Prog/DZ4/Zadachi/obj/Debug/net7.0/ref/Zadachi.dll
