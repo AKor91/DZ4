@@ -145,3 +145,82 @@
 // CreateArray();
 // PrintArray();
 // FindElementsArray();
+
+// Задача 4*(не обязательная): Задайте двумерный массив
+// из целых чисел. Напишите программу, которая удалит
+// строку и столбец, на пересечении которых расположен
+// наименьший элемент массива. Под удалением
+// понимается создание нового двумерного массива без
+// строки и столбца
+
+// int[,] array = new int[3,3];
+
+// for (int i = 0; i < array.GetLength(0); i++)
+// {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         array[i,j] = new Random().Next(1,10);
+//     }
+// }
+
+// // Находим наименьший элемент и его индексы
+// int minElement = array[0, 0];
+// int minRowIndex = 0;
+// int minColIndex = 0;
+
+// for (int i = 0; i < array.GetLength(0); i++)
+// {
+//     for (int j = 0; j < array.GetLength(1); j++)
+//     {
+//         if (array[i, j] < minElement)
+//         {
+//             minElement = array[i, j];
+//             minRowIndex = i;
+//             minColIndex = j;
+//         }
+//     }
+// }
+
+// // Создаем новый массив без строки и столбца с минимальным элементом
+// int[,] newArray = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
+
+// for (int i = 0, newRow = 0; i < array.GetLength(0); i++)
+// {
+//     if (i == minRowIndex)
+//     {
+//         continue; // Пропускаем строку с минимальным элементом
+//     }
+
+//         for (int j = 0, newCol = 0; j < array.GetLength(1); j++)
+//         {
+//             if (j == minColIndex)
+//             {
+//                 continue; // Пропускаем столбец с минимальным элементом
+//             }
+
+//                 newArray[newRow, newCol] = array[i, j];
+//                 newCol++;
+//         }
+//             newRow++;
+// }
+        
+// // Выводим исходный массив
+// Console.WriteLine("Исходный массив:");
+// PrintArray(array);
+
+// // Выводим новый массив без строки и столбца с минимальным элементом
+// Console.WriteLine("\nНовый массив после удаления строки и столбца с минимальным элементом:");
+// PrintArray(newArray);
+    
+
+// void PrintArray(int[,] array)
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             Console.Write(array[i, j] + " ");
+//         }
+//             Console.WriteLine();
+//     }
+// }
